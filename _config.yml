@@ -3,7 +3,7 @@ title: Lonski Homepage
 description: >
   Just random stuff about programming, linux and family life.
 
-permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:categories/:year/:month/:day/:title:output_ext
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://lonski.pl" # the base hostname & protocol for your site
 
