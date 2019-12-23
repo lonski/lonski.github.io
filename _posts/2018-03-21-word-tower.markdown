@@ -7,8 +7,9 @@ categories: [programming]
 ---
 I had an idea for a mini-game for training keyboard typing. A tower with falling blocks. Each block has a word on it, when typed - dissappears. If any other blocks were laying on it - they all fall (a physics engine Box2d is used). The goal is to type all the words and get as hight score as possible. You score points by typing the words of course. I had few ideas for the score rules, for example: the more blocks were laying on the block that dissappeard, the highest score for making him dissappear. Eventually there could be also harder mode, in which game would over if any of the blocks would fall on the floor.
 
-I wrote a very first version:
-[https://github.com/lonski/word-tower](https://github.com/lonski/word-tower)
+I wrote a very first version: [https://github.com/lonski/word-tower](https://github.com/lonski/word-tower)
+
+Playable browser version: [Click to play](https://wordtower.lonski.pl/)
 
 Some screenshots:
 
