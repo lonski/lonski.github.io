@@ -43,7 +43,7 @@ Example output:
 /usr/lib64/nginx/modules/ngx_http_passenger_module.so
 ```
 
-### Tell nginx to load passenger module
+### Tell nginx to load the passenger module
 
 Now create new module configuration for phusion passenger and add above module there:
 
