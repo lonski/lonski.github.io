@@ -62,4 +62,8 @@ const App = () => {
 export default hot(App)
 ```
 
+## Running the app
+
+Now besides running `rails s` run also `./bin/webpack-dev-server` in separate terminal.
+
 Cheers
