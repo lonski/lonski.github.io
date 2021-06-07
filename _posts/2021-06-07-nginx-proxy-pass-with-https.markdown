@@ -3,12 +3,12 @@ layout: post
 title: "Nginx proxy pass with https"
 subtitle: ""
 date: 2021-06-06
-categories: [programming]
+categories: [linux]
 ---
 
 Recently I deployed a web app and configured nginx proxy pass for it. I served it over https, the configuration looked similar to this:
 ```
-location / {                                                                                                                                                                                                                                                                                                                                                                            
+location / {
   proxy_pass http://127.0.0.1:<port>;
   proxy_set_header Host $host;
   proxy_set_header X-Real-IP $remote_addr;
